@@ -9,11 +9,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @EnableEurekaServer
 @SpringBootApplication
-public class WowEmployeeRegistryServiceApplication {
+public class EmployeeRegistryApplication {
 
 	public static void main(String[] args) {
 		log.info("My Registry Service Application :: STARTED");
-		SpringApplication.run(WowEmployeeRegistryServiceApplication.class, args);
+		SpringApplication.run(EmployeeRegistryApplication.class, args);
 	}
 
 }

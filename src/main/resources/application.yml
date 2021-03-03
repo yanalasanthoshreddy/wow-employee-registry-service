@@ -1,11 +1,15 @@
 server:
   port: 8761
 
+spring:
+  application:
+    name: REGISTRY-SERVICE
 eureka:
   client:
     register-with-eureka: false  #telling the server not to register himself in the service registry
     fetch-registry: false
+
       
 logging:
   level:
-    com: ERROR
+    com: INFO
