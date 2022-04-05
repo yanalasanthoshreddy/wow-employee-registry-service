@@ -6,6 +6,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * Registry service boot applciation.
+ * 
+ * @author Sudhakar Reddy
+ *
+ */
 @Slf4j
 @EnableEurekaServer
 @SpringBootApplication
